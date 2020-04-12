@@ -312,7 +312,7 @@ void kernel_entry()
 {
   //first init vga with fore & back colors
   init_vga(WHITE, BLACK);
-  print_str("Hello Its working, I had my doubts but its awesome, its starting point 0xb8000");
+  print_str("Hello OS_EDI is up and running, its starting point 0xb8000");
   /*print_newline();
   print_str("New line is working");
   print_newline();
